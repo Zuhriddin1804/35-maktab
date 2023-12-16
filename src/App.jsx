@@ -16,11 +16,11 @@ const App = () => {
       </Route>
     )
   );
-  
+
   return (
-    <>
+    <div className='font-Montserrat'>
       <RouterProvider router={router} />
-    </>
+    </div>
   );
 };
 
