@@ -5,3 +5,7 @@
 .container {
     @apply w-full max-w-1440px px-5 mx-auto;
 }
+
+a.active {
+    @apply text-red-600;
+}
