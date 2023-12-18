@@ -17,16 +17,24 @@ const Header = () => {
                 <nav className='hidden lg:block'>
                     <ul className='flex items-center text-white text-lg font-medium leading-normal space-x-5'>
                         <li>
-                            <NavLink className='hover:text-red-600 duration-150' to='/'>Bosh sahifa</NavLink>
+                            <NavLink className='block hover:text-red-600 duration-150' to='/'>
+                                Bosh sahifa
+                            </NavLink>
                         </li>
                         <li>
-                            <NavLink className='hover:text-red-600 duration-150' to='/About'>Maktab haqida</NavLink>
+                            <NavLink className='block hover:text-red-600 duration-150' to='/About'>
+                                Maktab haqida
+                            </NavLink>
                         </li>
                         <li>
-                            <NavLink className='hover:text-red-600 duration-150' to='/Event'>Tadbirlar</NavLink>
+                            <NavLink className='block hover:text-red-600 duration-150' to='/Event'>
+                                Tadbirlar
+                            </NavLink>
                         </li>
                         <li>
-                            <NavLink className='hover:text-red-600 duration-150' to='/Contact'>Aloqa</NavLink>
+                            <NavLink className='block hover:text-red-600 duration-150' to='/Contact'>
+                                Aloqa
+                            </NavLink>
                         </li>
                     </ul>
                 </nav>
