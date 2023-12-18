@@ -14,13 +14,13 @@ const Header = () => {
                             <NavLink to='/'>Bosh sahifa</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/'>Maktab haqida</NavLink>
+                            <NavLink to='/About'>Maktab haqida</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/'>Tadbirlar</NavLink>
+                            <NavLink to='/Event'>Tadbirlar</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/'>Aloqa</NavLink>
+                            <NavLink to='/Contact'>Aloqa</NavLink>
                         </li>
                     </ul>
                 </nav>
