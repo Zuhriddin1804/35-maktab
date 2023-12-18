@@ -12,7 +12,7 @@ const Header = () => {
         <header className='w-full bg-gray-800 py-5'>
             <div className='flex justify-between items-center container'>
                 <div>
-                    <Link className='text-white text-3xl font-medium leading-normal' to='/'>35-MAKTAB</Link>
+                    <Link className='text-white text-2xl sm:text-3xl font-medium leading-normal' to='/'>35-MAKTAB</Link>
                 </div>
                 <nav className='hidden lg:block'>
                     <ul className='flex items-center text-white text-lg font-medium leading-normal space-x-5'>
