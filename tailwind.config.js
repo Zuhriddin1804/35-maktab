@@ -8,7 +8,11 @@ export default {
     fontFamily: {
       'Montserrat': ['Montserrat', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      maxWidth: {
+        '1440px': '1440px',
+      },
+    },
   },
   plugins: [],
 }
