@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -8,6 +8,22 @@ const Header = () => {
                 <div>
                     <Link className='text-white text-3xl font-medium leading-normal' to='/'>35-MAKTAB</Link>
                 </div>
+                <nav>
+                    <ul className='flex items-center text-white text-lg font-medium leading-normal space-x-5 hover:text-red-600 duration-150'>
+                        <li>
+                            <NavLink to='/'>Bosh sahifa</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='/'>Maktab haqida</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='/'>Tadbirlar</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='/'>Aloqa</NavLink>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </header>
     );
