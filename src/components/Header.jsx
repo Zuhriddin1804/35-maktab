@@ -9,18 +9,18 @@ const Header = () => {
                     <Link className='text-white text-3xl font-medium leading-normal' to='/'>35-MAKTAB</Link>
                 </div>
                 <nav>
-                    <ul className='flex items-center text-white text-lg font-medium leading-normal space-x-5 hover:text-red-600 duration-150'>
+                    <ul className='flex items-center text-white text-lg font-medium leading-normal space-x-5'>
                         <li>
-                            <NavLink to='/'>Bosh sahifa</NavLink>
+                            <NavLink className='hover:text-red-600 duration-150' to='/'>Bosh sahifa</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/About'>Maktab haqida</NavLink>
+                            <NavLink className='hover:text-red-600 duration-150' to='/About'>Maktab haqida</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/Event'>Tadbirlar</NavLink>
+                            <NavLink className='hover:text-red-600 duration-150' to='/Event'>Tadbirlar</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/Contact'>Aloqa</NavLink>
+                            <NavLink className='hover:text-red-600 duration-150' to='/Contact'>Aloqa</NavLink>
                         </li>
                     </ul>
                 </nav>
